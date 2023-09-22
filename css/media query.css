@@ -1,0 +1,85 @@
+@media screen and (max-width: 300px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  .testimonial-box .description {
+    padding: 0 13rem;
+  }
+}
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown .nested-list {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover > .nested-list {
+    left: -100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+  .testimonial-box .description {
+    padding: 0 13rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .testimonial-box .description {
+    padding: 0 8rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .testimonial-box .description {
+    padding: 0 2rem;
+  }
+  .respon {
+    flex-direction: column;
+  }
+  .navbar ul li a:before {
+    display: none;
+  }
+  .bg-image .title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .testimonial-box .description {
+    padding: 0 1rem;
+  }
+  .respon {
+    flex-direction: column;
+  }
+  .card-blog {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding-inline: 15px;
+  }
+  .respon {
+    flex-direction: column;
+  }
+  .bg-image .title {
+    font-size: 3rem;
+  }
+}
