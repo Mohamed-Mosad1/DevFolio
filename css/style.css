@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 
 /*^============> Variables <============*/
 :root {
@@ -50,17 +56,18 @@ body {
   font-size: 3.125rem;
   font-weight: bold;
 }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
   color: var(--text-color);
 }
 /* ============================ Loading ============================ */
 #loading {
   background-color: #333;
   position: fixed;
-  top:  0;
+  top: 0;
   bottom: 0;
-  left:  0;
-  right:  0;
+  left: 0;
+  right: 0;
   z-index: 999999;
 }
 .spinner {
@@ -76,7 +83,7 @@ body {
   height: 100%;
   width: 6px;
   display: inline-block;
-  
+
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
   animation: sk-stretchdelay 1.2s infinite ease-in-out;
 }
@@ -87,8 +94,8 @@ body {
 }
 
 .spinner .rect3 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
 }
 
 .spinner .rect4 {
@@ -102,22 +109,33 @@ body {
 }
 
 @-webkit-keyframes sk-stretchdelay {
-  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
-  20% { -webkit-transform: scaleY(1.0) }
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+  }
 }
 
 @keyframes sk-stretchdelay {
-  0%, 40%, 100% { 
+  0%,
+  40%,
+  100% {
     transform: scaleY(0.4);
     -webkit-transform: scaleY(0.4);
-  }  20% { 
-    transform: scaleY(1.0);
-    -webkit-transform: scaleY(1.0);
+  }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
   }
 }
 /* ============================ Start NavBar ============================ */
 #navbar {
   background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: background-color 2s;
+  -o-transition: background-color 2s;
   transition: background-color 2s;
 }
 
@@ -147,6 +165,8 @@ body {
   letter-spacing: 0.4px;
   position: relative;
   text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
 }
 
@@ -174,6 +194,7 @@ body {
   color: var(--text-color);
 }
 .navbar-toggler:focus {
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 button:focus:not(:focus-visible) {
@@ -216,6 +237,9 @@ button:focus:not(:focus-visible) {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   height: 100vh;
   position: relative;
 }
