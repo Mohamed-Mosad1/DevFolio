@@ -236,10 +236,6 @@ button:focus:not(:focus-visible) {
   background-image: url("../img/hero-bg.jpg");
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
   height: 100vh;
   position: relative;
 }
