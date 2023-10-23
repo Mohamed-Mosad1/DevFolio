@@ -212,7 +212,7 @@ button:focus:not(:focus-visible) {
 /* ============================ End NavBar ============================ */
 /* ============================ Start Header ============================ */
 .bg-image {
-  background-image: url("/img/hero-bg.jpg");
+  background-image: url("../img/hero-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -336,7 +336,7 @@ header .overlay-itro {
 }
 /* ====================== sec four ======================  */
 .sec-counter {
-  background-image: url("/img/counters-bg.jpg");
+  background-image: url("../img/counters-bg.jpg");
   background-position: center center;
   background-size: cover;
   height: 100%;
@@ -440,7 +440,7 @@ header .overlay-itro {
   text-align: center;
 }
 .sec-six {
-  background-image: url("/img/overlay-bg.jpg");
+  background-image: url("../img/overlay-bg.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -525,7 +525,7 @@ header .overlay-itro {
 /* ====================== sec eight ======================  */
 
 .sect-mt4 {
-  background-image: url("/img/overlay-bg.jpg");
+  background-image: url("../img/overlay-bg.jpg");
   background-position: center center;
   background-size: cover;
   height: auto;
