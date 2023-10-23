@@ -27,14 +27,14 @@ $(document).ready(function () {
       });
     })
   );
-  let typed = new Typed("#element", {
-    strings: ["Designer", "Developer", "Freelancer", "Photographer"],
-    smartBackspace: false,
-    loop: true,
-    backSpeed: 100,
-    typeSpeed: 100,
-    backDelay: 2000,
-  });
+});
+let typed = new Typed("#element", {
+  strings: ["Designer", "Developer", "Freelancer", "Photographer"],
+  smartBackspace: false,
+  loop: true,
+  backSpeed: 100,
+  typeSpeed: 100,
+  backDelay: 2000,
 });
 
 let toggleBtn = document.querySelector(".navbar-toggler");
