@@ -234,7 +234,6 @@ button:focus:not(:focus-visible) {
 /* ============================ Start Header ============================ */
 .bg-image {
   background-image: url("../img/hero-bg.jpg");
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
