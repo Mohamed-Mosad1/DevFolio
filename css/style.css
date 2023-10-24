@@ -234,9 +234,9 @@ button:focus:not(:focus-visible) {
 /* ============================ Start Header ============================ */
 .bg-image {
   background-image: url("../img/hero-bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   position: relative;
 }
@@ -360,13 +360,8 @@ header .overlay-itro {
   background-image: url("../img/counters-bg.jpg");
   background-position: center center;
   background-size: cover;
-  height: 100%;
-}
-.bg-image-count {
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  height: 100%;
 }
 .counter-box {
   text-align: center;
@@ -464,6 +459,7 @@ header .overlay-itro {
   background-image: url("../img/overlay-bg.jpg");
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .testimonial-box .author {
   color: var(--text-color);
@@ -549,6 +545,7 @@ header .overlay-itro {
   background-image: url("../img/overlay-bg.jpg");
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: auto;
 }
 .footer-paralax {
