@@ -460,6 +460,7 @@ header .overlay-itro {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
 }
 .testimonial-box .author {
   color: var(--text-color);
@@ -546,7 +547,7 @@ header .overlay-itro {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: auto;
+  height: 100%;
 }
 .footer-paralax {
   padding: 8rem 0 0 0;
